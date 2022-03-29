@@ -1,0 +1,97 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cabecalho {
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    margin: 0px 72px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+    padding: 5px 0px 5px 0px;
+    margin-right: 16px;
+    font-size: 10px;
+    /* padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap; */
+}
+
+.cabecalho .botao {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 16px 18px;
+    color: #FFFFFF;
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    border-radius: 4px;
+}
+
+.cabecalho .botao:hover {
+    background-color: #0B5ED7;
+    border-color: #0A58CA;
+    border-radius: 4px;
+}
+
+.painel {
+    background: url(../img/bg-masthead.jpg) center center no-repeat;
+    height: 600px;
+}
+
+.painel h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.painel input {
+    position: relative;
+    top: 50%;
+    left: 28%;
+    transform: translateY(-50%);
+}
+
+.painel a {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
+
+.painel .caixa-de-email {
+    width: 35%;
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212529;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+
+.painel .botao-submit {
+    display: inline-block;
+    padding: 16px 18px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    border-radius: 4px;
+}
+
+.painel .botao-submit:hover {
+    background-color: #0B5ED7;
+    border-color: #0A58CA;
+    border-radius: 4px;
+}
